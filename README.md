@@ -1,5 +1,5 @@
 # Data Analysis Project in Excel
-## Data Cleaning, Analysis, and Visualization <br>
+## Data Cleansing, Analysis, and Visualization <br>
 
 <img width="1000" height="525" alt="image" src="https://github.com/user-attachments/assets/14763d4b-cff9-4473-80ab-c5b17b6f6480" /> <br>
 
@@ -14,10 +14,15 @@ In this project, I utilize Microsoft Excel to perform a complete end-to-end data
 
 ---
 
-## 📊 Tools Utilized
+## 📊 Tools Utilized 
 
-- `Microsoft Excel`: _data cleaning, transformation, and analysis_
+- `Microsoft Excel`: _used for data cleaning, transformation, and preparation for analysis_
+- `PivotTables`: _enabled dynamic aggregation and summarization of key metrics_
+- `Descriptive Statistics`: _provided summary metrics including mean, median, mode, standard deviation, and range_
+- `Slicers`: _allowed interactive filtering of PivotTables and connected charts_
+- `Charts & Dashboards`: _visualized data trends and created interactive dashboards linked to PivotTables_
 - `Sample Dataset`: _used for demonstrating Excel’s analytical capabilities_
+
 
 ---
 
@@ -27,7 +32,15 @@ Raw data often contains inconsistencies, duplicates, and missing information tha
 
 <Br> <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/a13f8006-d4df-4843-8f43-8f0527a77ba8" />
 
-Next, I standardized categorical fields — for example, converting abbreviated values in the Gender column from M and F to “Male” and “Female.” This was accomplished using Ctrl + Shift + ↓ to select the column and Ctrl + H (Find and Replace) to update the values.
+Next, I standardized categorical fields in the Gender column by converting abbreviated values into full text. This was accomplished using the following Excel shortcuts and functions:
+
+`Ctrl + Shift + ↓` → to select the entire column
+
+`Ctrl + H` → to open the Find and Replace tool
+
+Find "M" → Replace with "Male"
+
+Find "F" → Replace with "Female"
 
 <Br> <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/320d3ada-79d7-4f93-bc5a-d23fbe46cf82" />
 
@@ -51,6 +64,10 @@ Once the dataset was normalized, I used Excel’s Data Analysis ToolPak to gener
 
 <br>
 
+<img width="1279" height="348" alt="image" src="https://github.com/user-attachments/assets/aa10c0b1-40d5-4da7-a0fd-239fdfd44ab2" />
+
+<br>
+
 ## Step 3: PivotTable Analysis
 
 Next, I leveraged PivotTables to summarize key financial and demographic attributes in the dataset. This allowed for dynamic grouping, filtering, and aggregation of data.
@@ -67,7 +84,7 @@ The second PivotTable analyzes age distribution across wealth categories, reveal
 
 ## Step 4: Interactive Visualization
 
-To make the data exploration process more intuitive, I incorporated Slicers — allowing for real-time filtering by specific categories such as gender or region. These filters dynamically update all connected PivotTables simultaneously.
+To make the data exploration process more intuitive, I incorporated Slicers — allowing for real-time filtering by specific categories such as gender or category. These filters dynamically update all connected PivotTables simultaneously.
 
 <Br> <img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/409328e6-68bc-44c0-9e96-483633ef099d" />
 
@@ -79,7 +96,7 @@ Finally, I created interactive charts connected to the PivotTables. These visual
 
 ## ✅ Final Outcome
 
-<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/b309679e-df20-48d3-aa3c-d7a1a82a9a1c" />
+<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/b309679e-df20-48d3-aa3c-d7a1a82a9a1c" /> <Br>
 
 By the end of the project, the dataset was fully transformed into a clean, analyzable format supported by descriptive metrics, PivotTables, and interactive dashboards — demonstrating how Excel can serve as both a data preparation and visualization tool.
 
