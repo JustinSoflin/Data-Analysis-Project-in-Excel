@@ -52,7 +52,17 @@ The dataset included columns for birth year, month, and day, but no calculated a
 
 - `=YEARFRAC(birthdate, TODAY())` → to calculate age in years
 
-<Br> <img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/d4afb854-b539-4d05-a0ad-7e07de6c9982" /> <Br> <img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/3b24dbaf-698a-4ad4-837c-89527d7fc48c" /> <Br> <img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/90bdae5d-1006-4c8c-8710-bd1a5b691413" />
+<Br>
+
+<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/90bdae5d-1006-4c8c-8710-bd1a5b691413" />
+
+<Br> 
+
+<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/3b24dbaf-698a-4ad4-837c-89527d7fc48c" /> 
+
+<br>
+
+<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/d4afb854-b539-4d05-a0ad-7e07de6c9982" />
 
 <br>
 
@@ -90,13 +100,11 @@ To make the data exploration process more intuitive, I incorporated Slicers — 
 
 Finally, I created interactive charts connected to the PivotTables. These visualizations automatically adjust in response to Slicer selections, enabling a more dynamic and exploratory analysis experience.
 
-<Br> <img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/409328e6-68bc-44c0-9e96-483633ef099d" />
+<br> <img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/b309679e-df20-48d3-aa3c-d7a1a82a9a1c" /> <Br>
 
 <Br>
 
 ## ✅ Final Outcome
-
-<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/b309679e-df20-48d3-aa3c-d7a1a82a9a1c" /> <Br>
 
 By the end of the project, the dataset was fully transformed into a clean, analyzable format supported by descriptive metrics, PivotTables, and interactive dashboards — demonstrating how Excel can serve as both a data preparation and visualization tool.
 
