@@ -10,7 +10,11 @@ In this project, I utilize Microsoft Excel to perform a complete end-to-end data
 
 ## 📑 Table of Contents
 
-
+[Step 1: Data Cleaning](#step-1-data-cleaning) | 
+[Step 2: Descriptive Statistics](#step-2-descriptive-statistics) | 
+[Step 3: PivotTable Analysis](#step-3-pivottable-analysis) | 
+[Step 4: Interactive Visualization](#step-4-interactive-visualization) | 
+[Final Outcome](#-final-outcome)
 
 ---
 
@@ -108,67 +112,3 @@ Finally, I created interactive charts connected to the PivotTables. These visual
 
 By the end of the project, the dataset was fully transformed into a clean, analyzable format supported by descriptive metrics, PivotTables, and interactive dashboards — demonstrating how Excel can serve as both a data preparation and visualization tool.
 
-
-
-
-
-
-
-
-
-
-
-
-
-# Data-Analysis-Project-in-Excel
-
-tools used: 
-excel _excel desc_
-sample excel data file
-
-1) data cleaning
-data can be messy. start by 'cleansing' to make a workable format. after making a backup of the data, ensure there are no duplicate rows
-
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/a13f8006-d4df-4843-8f43-8f0527a77ba8" />
-
-changing the gender tab, M to Male and F to Female. CRTL+SHIFT+down arrow to highlight the entire column, CRT+H to open find and replace tool to rename the fields.
-
-<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/320d3ada-79d7-4f93-bc5a-d23fbe46cf82" />
-
-the data set includes birth year, month, and day, but nothing about age. i scrolled over to W to create an Age column and used the excel function =DATE() and select the birth year, month, and day columns to create a birthday. in the next column, i use the =TODAY() function, and in the final column, =YEARFRAC() along with the newly created today date and birthday to create and age.
-
-
-<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/d4afb854-b539-4d05-a0ad-7e07de6c9982" />
-
-
-<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/3b24dbaf-698a-4ad4-837c-89527d7fc48c" />
-
-
-
-<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/90bdae5d-1006-4c8c-8710-bd1a5b691413" />
-
-
-2) Data Analysis
-data analysis and descriptive statistics tools
-
-<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/4fa73a8f-1f27-47ab-afe7-986e168fe993" />
-
-pivot table to filter data to show the names and final worth of the top 10 wealthiest people
-
-
-<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/c8f32da1-e236-436f-acf2-459e602a17cd" />
-
-using pivot tables again, i include the ranges and counts of age to show which age groups are most likely to be the wealthiest
-
-<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/5683f4a0-c4af-4ca8-8fe3-0249856a4255" />
-
-
-3) Data Visualization
-inserting slicers and choosing some categories allows us to filter the pivot tables in real time. ensure the tables are properly connected.
-
-
-<img width="1280" height="764" alt="image" src="https://github.com/user-attachments/assets/409328e6-68bc-44c0-9e96-483633ef099d" />
-
-finally, i add graphs for the final step of visualization, which are still interactive and connected to the pivot tables and respond to category selections.
-
-   
