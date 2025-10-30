@@ -34,7 +34,8 @@ In this project, I utilize Microsoft Excel to perform a complete end-to-end data
 
 Raw data often contains inconsistencies, duplicates, and missing information that can interfere with analysis. To prepare the dataset, I first created a backup copy and then removed any duplicate rows using Data → Remove Duplicates.
 
-<Br> <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/a13f8006-d4df-4843-8f43-8f0527a77ba8" />
+<Br> <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/3a09278e-bd13-4b8c-ba84-095ebb445bd6" />
+
 
 Next, I standardized categorical fields in the Gender column by converting abbreviated values into full text. This was accomplished using the following Excel shortcuts and functions:
 
@@ -46,7 +47,8 @@ Find "M" → Replace with "Male"
 
 Find "F" → Replace with "Female"
 
-<Br> <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/320d3ada-79d7-4f93-bc5a-d23fbe46cf82" />
+<Br> <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/3170842a-08c5-40b6-ab32-6eebb17bc8d9" />
+
 
 The dataset included columns for birth year, month, and day, but no calculated age. To address this, I created an Age column by combining these values using the following Excel functions:
 
